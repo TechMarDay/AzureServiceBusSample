@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\MyWorkspace\\AzureServiceBusSample\\AzureServiceBusSample\\AzureServiceBusSample1\\AzureServiceBusSample1.csproj": {}
+  },
+  "projects": {
+    "C:\\MyWorkspace\\AzureServiceBusSample\\AzureServiceBusSample\\AzureServiceBusSample1\\AzureServiceBusSample1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MyWorkspace\\AzureServiceBusSample\\AzureServiceBusSample\\AzureServiceBusSample1\\AzureServiceBusSample1.csproj",
+        "projectName": "AzureServiceBusSample1",
+        "projectPath": "C:\\MyWorkspace\\AzureServiceBusSample\\AzureServiceBusSample\\AzureServiceBusSample1\\AzureServiceBusSample1.csproj",
+        "packagesPath": "C:\\Users\\long.nguyendh\\.nuget\\packages\\",
+        "outputPath": "C:\\MyWorkspace\\AzureServiceBusSample\\AzureServiceBusSample\\AzureServiceBusSample1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\long.nguyendh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Azure.Messaging.ServiceBus": {
+              "target": "Package",
+              "version": "[7.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
